@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <title>
+            form
+        </title>
+    </head>
+    <body>
+        <form action="https://www.example.com/subscribe.php" method="get">
+<p>This is where the form controls will appear.</p>
+<label>Username:<input type="text" name="username" required="required" /></label>
+<br />
+   <p> password:
+    <input type="password" id="password" name="password" required="required" />
+</p>
+<label for="dateofbirth">DOB:</label>
+<input type="date" id="dateofbirth" name="dob" /><br />
+<label for="emailID">email ID:</label>
+<input type="email" id="emailID" /><br />
+<label for="webaddress">pls enter your website address:</label>
+<input type="url" id="webaddress" required="required" />
+    <p>Which is your branch and tell about ur first semester experience.
+<textarea name="comments cols="20" rows="4">Enter your comments here</textarea>
+</p>
+     <p>What device do u listen to music on?
+        <br />
+        <input type="radio" name="preference" value="iPod" checked="checked"/> iPod
+        <input type="radio" name="preference" value="Radio"> Radio
+        <input type="radio" name="preference" value="Computer">Computer
+</p>
+<p>What device do u listen to music on?
+    <input type="checkbox" name="preference" value="iPod" >iPod
+    <input type="checkbox" name="preference" value="Radio" checked="checked">Radio
+    <input type="checkbox" name="preference" value="Computer">Computer
+</p>
+<p>
+<label for="search">Search:</label><br />
+<input type="search" id="search" name="search" placeholder="Enter keyword" />
+<input type="submit" value="search" />
+</p>
+<p>What device do u listen to music on?<br />devices</p>
+<select name="devices">
+    <option value="iPod">iPod</option>
+    <option value="Radio" selected="selected">Radio</option>
+    <option value="Computer">Computer</opt=ion>
+</select>
+<p>
+    Do you play any of the instrument?
+</p>
+<select size="3" multiple="multiple">
+    <option value="flute">flute</option>
+    <option value="drum">drum</option>
+    <option value="guitar">guitar</option>
+    <option =value="harmonium">harmonium</option>
+</select><br />
+<button><img src="C:\Users\lenovo\Downloads\button.jfif" alt="button" title="button" />button</button>
+<input type="hidden" name="bookmark" value="lyrics" />
+<p>Write your gender?
+    <input type="radio" name="gender" value="female" />female
+    <input type="radio" name="gender" value="male" />male
+</p>
+<p>
+    <label>Age:<input type="text" name="age" /></label>
+    Gender:
+    <input id="female" type="radio" name="gender" value="f" />
+    <label for="female">Female</label>
+    <input id="male" type="radio" name="gender" value="m" />
+    <label for="male">male</label> 
+</p>
+<fieldset>
+    <legend>Contact Details</legend>
+    <label>Email:<br /><input type="text" name="email" /> </label><br />
+    <label>Mobile:<br /><input type="text" name="mobile" /></label><br />
+    <label>Telephone:<br /><input type="text" name="Telephone" /></label>
+</fieldset>
+</form>
+<form action="https://www.example.com/subscribe.php" method="post">
+    <p>upload the song:<br />
+    <input type="file" name="user-song" /><br />
+    <input type="submit" name="submit" value="submit" />
+    <input type="image" src="C:\Users\lenovo\Pictures\submit2.jpg" />
+</form>
+
+    </body>
+</html>
